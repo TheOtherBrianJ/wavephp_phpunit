@@ -1,0 +1,16 @@
+{
+    "name": "wavephp/cheer",
+    "description": "Example Cheer app for Wave PHP",
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "psr-4": { "WavePHP\\Cheer\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "WavePHP\\Cheer\\": "test" }
+    },
+    "scripts": {
+        "test": "phpunit test"
+    }
+}
